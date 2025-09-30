@@ -31,7 +31,7 @@ export default function App() {
     }
     try {
       const response = await fetch(
-        "https://smartindiahackathon2025-production-4248.up.railway.app/api/current_user/",
+        `${import.meta.env.VITE_BACKEND_URL}/api/current_user/`,
         {
           method: "GET",
           headers: {
@@ -62,7 +62,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        "https://smartindiahackathon2025-production-4248.up.railway.app/api/login/",
+        `${import.meta.env.VITE_BACKEND_URL}/api/login/`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
