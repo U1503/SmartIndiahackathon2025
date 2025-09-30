@@ -146,6 +146,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
+    "https://smart-indiahackathon2025-topaz.vercel.app",
     "http://localhost:5173",  
     "http://10.2.0.2:5173",
     "http://192.168.1.103:5173",
@@ -165,6 +166,7 @@ CORS_ALLOW_HEADERS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
+    "https://smart-indiahackathon2025-topaz.vercel.app",
     "http://localhost:5173",  
     "http://10.2.0.2:5173",
     "http://192.168.1.103:5173",
